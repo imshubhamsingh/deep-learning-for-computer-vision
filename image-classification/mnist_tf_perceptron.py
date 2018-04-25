@@ -6,7 +6,7 @@ mnist_data = input_data.read_data_sets('MNIST_data', one_hot=True)
 input_size = 784
 no_classes = 10
 batch_size = 100
-total_batches = 200
+total_batches = 1800
 
 x_input = tf.placeholder(tf.float32, shape=[None, input_size])
 y_input = tf.placeholder(tf.float32, shape=[None, no_classes])
@@ -35,4 +35,16 @@ for batch_no in range(total_batches):
     print(loss_value)
 
 prediction = tf.argmax(logits, 1)
+
+
 correct_prediction = tf.equal(prediction, tf.argmax(y_input, 1))
+
+accuracy_operation = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+
+test_images, test_labels = mnist_data.test.images, mnist_data.test.labels
+accuracy_value = session.run(accuracy_operation, feed_dict={
+    x_input: test_images,
+    y_input: test_labels
+})
+print('Accuracy : ', accuracy_value)
+session.close()
