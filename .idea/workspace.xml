@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c4f47a-13ef-4dab-a6c4-a103ffaf7ce9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/image-classification/cat_vs_dog/transfer_learning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/embedding.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="dataset_prep.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/dataset_prep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
+            <state relative-caret-position="52">
               <caret line="3" column="4" selection-start-line="3" selection-end-line="4" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -40,8 +40,8 @@
       <file leaf-file-name="cnn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-594">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+            <state relative-caret-position="52">
+              <caret line="3" column="13" selection-start-line="3" selection-end-line="4" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -52,8 +52,8 @@
       <file leaf-file-name="bottle_neck.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/bottle_neck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="41" lean-forward="true" selection-end-line="63" selection-end-column="60" />
+            <state relative-caret-position="52">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transfer_learning.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="transfer_learning.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/transfer_learning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+            <state relative-caret-position="-362">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -73,9 +73,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mnist_keras.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-classification/mnist/mnist_keras.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="embedding.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/embedding.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -108,6 +115,7 @@
         <option value="$PROJECT_DIR$/image-classification/cat_vs_dog/bottle_neck.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/image-classification/cat_vs_dog/transfer_learning.py" />
+        <option value="$PROJECT_DIR$/embedding.py" />
       </list>
     </option>
   </component>
@@ -120,7 +128,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="838" />
     <option name="height" value="1050" />
   </component>
@@ -136,17 +144,6 @@
             <path>
               <item name="deep-learning-computer-vison" type="b2602c69:ProjectViewProjectNode" />
               <item name="deep-learning-computer-vison" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deep-learning-computer-vison" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deep-learning-computer-vison" type="462c0819:PsiDirectoryNode" />
-              <item name="image-classification" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deep-learning-computer-vison" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deep-learning-computer-vison" type="462c0819:PsiDirectoryNode" />
-              <item name="image-classification" type="462c0819:PsiDirectoryNode" />
-              <item name="cat_vs_dog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -300,7 +297,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1057" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="838" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -309,8 +306,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2919708" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33159542" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3123153" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30656934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40829146" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -343,8 +340,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image-classification/mnist/mnist_keras.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="3" column="13" selection-start-line="3" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/bottle_neck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/transfer_learning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/dataset_prep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="3" column="4" selection-start-line="3" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="3" column="13" selection-start-line="3" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/bottle_neck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/transfer_learning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/dataset_prep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="3" column="4" selection-start-line="3" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -409,7 +483,7 @@
     <entry file="file://$PROJECT_DIR$/image-classification/mnist_tf_perceptron.py" />
     <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/dataset_prep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
+        <state relative-caret-position="52">
           <caret line="3" column="4" selection-start-line="3" selection-end-line="4" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -419,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/cnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+        <state relative-caret-position="52">
+          <caret line="3" column="13" selection-start-line="3" selection-end-line="4" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -434,13 +508,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image-classification/mnist/mnist_keras.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/bottle_neck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="41" lean-forward="true" selection-end-line="63" selection-end-column="60" />
+        <state relative-caret-position="52">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -449,10 +520,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/image-classification/cat_vs_dog/transfer_learning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+        <state relative-caret-position="-362">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
